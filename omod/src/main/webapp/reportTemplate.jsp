@@ -1,5 +1,3 @@
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ include file="/WEB-INF/template/include.jsp"%>
 <openmrs:require privilege="Manage PTME Reports" otherwise="/login.htm" redirect="/module/ptme/reportTemplate.form" />
 <%@ include file="/WEB-INF/template/header.jsp"%>
@@ -119,7 +117,7 @@
                                 <td class="boldText">fichier <b class="required">*</b> : </td>
                                 <td><form:input path="content" size="100" cssClass=""/></td>
                                 <td><form:errors cssClass="error" path="content"/></td>
-                                <td><input type="submit" value="charger" name="add"></td>
+                                <%--<td><input type="submit" value="charger" name="add"></td>--%>
                             </tr>
                         </table>
                     </td>
