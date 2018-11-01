@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5274388-8312-496e-b64d-da710119a8d7" name="Default" comment="modification du menu template et ses service">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/ptme/FileUpload.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/omod/src/main/webapp/result.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/omod/src/main/webapp/reportTemplate.jsp" afterPath="$PROJECT_DIR$/omod/src/main/webapp/reportTemplate.jsp" />
@@ -872,7 +871,7 @@
       <workItem from="1540299432401" duration="2700000" />
       <workItem from="1540304531476" duration="8501000" />
       <workItem from="1540468142700" duration="11032000" />
-      <workItem from="1540896203383" duration="7026000" />
+      <workItem from="1540896203383" duration="7045000" />
     </task>
     <task id="LOCAL-00001" summary="modification du menu template et ses service">
       <created>1541070095785</created>
@@ -944,11 +943,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541075673230</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="modification du menu template et ses service">
+      <created>1541077421714</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1541077421715</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29259000" />
+    <option name="totallyTimeSpent" value="29278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="2" width="1938" height="1088" extended-state="0" />
