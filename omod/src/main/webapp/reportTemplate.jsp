@@ -97,7 +97,7 @@
     <div class="box">
         <h3><b>Saisie des templates</b></h3>
         <div class="line"></div>
-        <form:form action="FileUpload" commandName="templateForm" id="form" method="post" enctype="multipart/form-data" >
+        <form:form action="" commandName="templateForm" id="form" method="post" enctype="multipart/form-data" >
             <form:hidden path="templateId"/>
             <table cellspacing="0" cellpadding="5" align="" width="70%">
                 <tr>
@@ -117,7 +117,7 @@
                                 <td class="boldText">fichier <b class="required">*</b> : </td>
                                 <td><input type="file" name="file"  path="content" size="50" cssClass=""/></td>
                                 <td><form:errors cssClass="error" path="content"/></td>
-                                <td><input type="submit" value="upload"/></td>
+                                <%--<td><input type="submit" value="upload"/></td>--%>
                             </tr>
                         </table>
                     </td>
