@@ -49,7 +49,7 @@
     </div>
     <div class="boxHeader"></div>
     <div class="box">
-        <h3>Liste des fichiers excels</h3>
+        <h3>Liste des templates</h3>
         <div class="line"></div>
         <table width="100%" style="border: solid #1aac9b 1px" cellpadding="0" cellspacing="0" id="list-template">
             <thead>
@@ -109,13 +109,18 @@
                                 <td><form:errors cssClass="error" path="name"/></td>
                             </tr>
                             <tr>
-                                <td class="boldText">Description  : </td>
+                                <td class="boldText">Description : </td>
                                 <td><form:textarea path="description" rows="5" cssClass="textarea-c" /></td>
                                 <td><form:errors cssClass="error" path="description"/></td>
                             </tr>
                             <tr>
                                 <td class="boldText">fichier <b class="required">*</b> : </td>
-                                <td><form:input path="content" size="100" cssClass=""/></td>
+                                <td><form:input  path="content" size="100" cssClass=""
+                                                 action="action_file_upload.jsp" method="post"
+                                                 enctype="multipart/form-data"/>
+                                        <input type="file" name="file" size="50" />
+                                        <input type="submit" value="Telecharger fichier" />
+                                </td>
                                 <td><form:errors cssClass="error" path="content"/></td>
                                 <%--<td><input type="submit" value="charger" name="add"></td>--%>
                             </tr>
