@@ -115,12 +115,8 @@
                             </tr>
                             <tr>
                                 <td class="boldText">fichier <b class="required">*</b> : </td>
-                                <td><form:input  path="content" size="100" cssClass=""
-                                                 action="action_file_upload.jsp" method="post"
-                                                 enctype="multipart/form-data"/>
-                                        <input type="file" name="file" size="50" />
-                                        <input type="submit" value="Telecharger fichier" />
-                                </td>
+                                <td><form:input type="file" path="content" size="50" cssClass=""/>
+                                        <input type="submit" value="Telecharger fichier" /></td>
                                 <td><form:errors cssClass="error" path="content"/></td>
                                 <%--<td><input type="submit" value="charger" name="add"></td>--%>
                             </tr>
