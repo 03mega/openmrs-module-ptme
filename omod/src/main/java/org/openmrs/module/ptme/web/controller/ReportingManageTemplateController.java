@@ -48,16 +48,16 @@ public class ReportingManageTemplateController {
         HttpSession session = request.getSession();
 
         String mode = "list";
-
+        if (!add.isEmpty()){
+            mode = "form";
+        }
         if (mode.equals("form")) {
             TemplateForm templateForm = new TemplateForm();
 
             modelMap.addAttribute("templateForm", templateForm);
         }
 
-        if (!add.isEmpty()){
-            mode = "form";
-        }
+
 
         if (mode.equals("list")){
 
