@@ -15,9 +15,15 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.multipart.MultipartFile;
 
+import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 @Controller
 public class ReportingManageTemplateController {
@@ -44,7 +50,6 @@ public class ReportingManageTemplateController {
         if (!Context.isAuthenticated()){
             return;
         }
-
         HttpSession session = request.getSession();
 
         String mode = "list";
@@ -56,31 +61,26 @@ public class ReportingManageTemplateController {
 
             modelMap.addAttribute("templateForm", templateForm);
         }
-
-
-
         if (mode.equals("list")){
 
             GetTemplateFormForm getTemplateFromFrom = new GetTemplateFormForm();
             modelMap.addAttribute("getTemplateFromFrom", getTemplateFromFrom);
             modelMap.addAttribute("template", getPreventTransmissionService().getAllTemplate(false));
         }
-
         modelMap.addAttribute("pageName", "Template.jsp");
         modelMap.addAttribute("mode", mode);
     }
 
     @RequestMapping(value = "/module/ptme/reportTemplate.form", method = RequestMethod.POST)
-    public String onSubmitIndicator(HttpServletRequest request,
-                                    ModelMap modelMap,
+    public String onSubmitTemplate(HttpServletRequest request, ModelMap modelMap,
                                     @RequestParam(required = false, defaultValue = "") Integer templateId,
-                                    TemplateForm templateForm,
-                                    BindingResult result) {
+                                   @RequestParam MultipartFile file,
+                                    TemplateForm templateForm, BindingResult result)
+            throws ServletException, IOException {
 
         if (!Context.isAuthenticated()){
             return null;
         }
-
         if(!result.hasErrors()) {
             HttpSession session = request.getSession();
 
@@ -89,8 +89,17 @@ public class ReportingManageTemplateController {
             ReportingTemplate template = null;
             if (templateForm.getTemplateId() == null) {
                 template = templateForm.getTemplate(new ReportingTemplate());
-            } else {
+            }
+            else {
                 template = templateForm.getTemplate(getPreventTransmissionService().getTemplateById(templateForm.getTemplateId()));
+                if(!file.isEmpty()){
+                    byte[] bytes = file.getBytes();
+                    String filename = file.getOriginalFilename();
+                    BufferedOutputStream stream =new BufferedOutputStream(new FileOutputStream(new File("C:/" + filename)));
+                    stream.write(bytes);
+                    stream.flush();
+                    stream.close();
+                }
             }
 
             if (getPreventTransmissionService().saveReportingTemplate(template) != null) {
