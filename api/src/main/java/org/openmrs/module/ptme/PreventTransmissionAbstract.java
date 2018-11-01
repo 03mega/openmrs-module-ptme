@@ -19,7 +19,7 @@ public abstract class PreventTransmissionAbstract extends BaseOpenmrsData implem
 
     }
 
-    @Basic
+    /* @Basic
     @Access(AccessType.PROPERTY)
     @Column(name = "uuid", length = 38, unique = true, nullable = false)
     @Override
@@ -138,4 +138,5 @@ public abstract class PreventTransmissionAbstract extends BaseOpenmrsData implem
     public void setVoidReason(String voidReason) {
         super.setVoidReason(voidReason);
     }
+    */
 }

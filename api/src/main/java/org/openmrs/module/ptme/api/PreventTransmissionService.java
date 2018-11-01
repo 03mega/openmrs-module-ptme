@@ -160,7 +160,15 @@ public interface PreventTransmissionService extends OpenmrsService {
 	Boolean removeIndicator(Integer indicatorId);
 	ReportingIndicator voidIndicator(Integer indicatorId);
 
-	/**
+	 // Template
+	List<ReportingTemplate> getAllTemplate();
+	List<ReportingTemplate> getAllTemplate(Boolean includeVoided);
+	ReportingTemplate getTemplateById(Integer templateId);
+	ReportingTemplate saveReportingTemplate(ReportingTemplate template);
+	Boolean removeTemplate(Integer templateId);
+	ReportingTemplate voidTemplate(Integer templateId);
+	 /**
+
 	 * End Report Service
 	 */
 }

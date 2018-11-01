@@ -398,6 +398,38 @@ public class PreventTransmissionServiceImpl extends BaseOpenmrsService implement
     }
 
     @Override
+    public List<ReportingTemplate> getAllTemplate() {
+        return dao.getAllTemplate();
+    }
+
+    @Override
+    public List<ReportingTemplate> getAllTemplate(Boolean includeVoided) {
+        return dao.getAllTemplate(includeVoided);
+    }
+
+    @Override
+    public ReportingTemplate getTemplateById(Integer templateId) {
+        return dao.getTemplateById(templateId);
+    }
+
+    @Override
+    public ReportingTemplate saveReportingTemplate(ReportingTemplate template) {
+        return dao.saveReportingTemplate(template);
+    }
+
+    @Override
+    public Boolean removeTemplate(Integer templateId) {
+        return dao.removeTemplate(templateId);
+    }
+
+    @Override
+    public ReportingTemplate voidTemplate(Integer templateId) {
+        return dao.voidTemplate(templateId);
+    }
+
+
+
+    @Override
     public List<ReportingIndicator> getAllIndicators() {
         return dao.getAllIndicators();
     }
