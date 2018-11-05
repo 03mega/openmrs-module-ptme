@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import java.io.IOException;
 
 @Controller
 public class ReportingManageTemplateController {
@@ -68,11 +69,12 @@ public class ReportingManageTemplateController {
     @RequestMapping(value = "/module/ptme/reportTemplate.form", method = RequestMethod.POST)
     public String onSubmitTemplate(HttpServletRequest request, ModelMap modelMap,
                                     @RequestParam(required = false, defaultValue = "") Integer templateId,
-                                    TemplateForm templateForm, BindingResult result) {
+                                    TemplateForm templateForm, BindingResult result) throws IOException{
 
         if (!Context.isAuthenticated()){
             return null;
         }
+
         if(!result.hasErrors()) {
             HttpSession session = request.getSession();
 
