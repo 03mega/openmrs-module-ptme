@@ -84,11 +84,11 @@ public class ReportingManageTemplateController {
             if (templateForm.getTemplateId() == null) {
                 template = templateForm.getTemplate(new ReportingTemplate());
             }
-            else {
+           /* else {
                 template = templateForm.getTemplate(getPreventTransmissionService().getTemplateById(templateForm.getTemplateId()));
             }
 
-           /* if (getPreventTransmissionService().saveReportingTemplate(template) != null) {
+            if (getPreventTransmissionService().saveReportingTemplate(template) != null) {
                 if (templateForm.getTemplateId() != null) {
                     session.setAttribute(WebConstants.OPENMRS_MSG_ATTR, "Template mis à jour avec succès !");
                 }
