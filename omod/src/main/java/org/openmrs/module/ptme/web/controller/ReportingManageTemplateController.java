@@ -88,14 +88,14 @@ public class ReportingManageTemplateController {
                 template = templateForm.getTemplate(getPreventTransmissionService().getTemplateById(templateForm.getTemplateId()));
             }
 
-            if (getPreventTransmissionService().saveReportingTemplate(template) != null) {
+           /* if (getPreventTransmissionService().saveReportingTemplate(template) != null) {
                 if (templateForm.getTemplateId() != null) {
                     session.setAttribute(WebConstants.OPENMRS_MSG_ATTR, "Template mis à jour avec succès !");
                 }
                 else {
                     session.setAttribute(WebConstants.OPENMRS_MSG_ATTR, "Template sauvegargé avec succès !");
                 }
-            }
+            }*/
 
             modelMap.addAttribute("mode", "list");
             return "redirect:/module/ptme/reportTemplate.form";
