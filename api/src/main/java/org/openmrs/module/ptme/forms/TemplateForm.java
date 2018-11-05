@@ -14,7 +14,8 @@ public class TemplateForm {
     private Integer templateId;
     private String name;
     private String description;
-    private byte[] content;
+   /* private byte[] content;*/
+    private String filePath;
 
     public TemplateForm() {
     }
@@ -55,26 +56,36 @@ public class TemplateForm {
         this.description = description;
     }
 
-    public byte[] getContent() {
+   /* public byte[] getContent() {
         return content;
     }
 
     public void setContent(byte[] content) {
         this.content = content;
+    }*/
+
+    public String getFilePath() {
+        return filePath;
+    }
+
+    public void setFilePath(String filePath) {
+        this.filePath = filePath;
     }
 
     public void setTemplate(ReportingTemplate template) {
         this. setTemplateId(template.getTemplateId());
         this.setName(template.getName());
         this.setDescription(template.getDescription());
-        this.setContent(template.getContent());
+        /*this.setContent(template.getContent());*/
+
     }
 
     public ReportingTemplate getTemplate (ReportingTemplate template) {
         template.setTemplateId(this.getTemplateId());
         template.setName(this.getName());
         template.setDescription(this.getDescription());
-        template.setContent(this.getContent());
+        template.setContent(this.getFilePath().getBytes());
+        /*template.setContent(this.getContent);*/
 
         if (template.getCreator() == null){
             template.setCreator(Context.getAuthenticatedUser());
