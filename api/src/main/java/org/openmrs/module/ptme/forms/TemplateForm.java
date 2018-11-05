@@ -1,9 +1,12 @@
 package org.openmrs.module.ptme.forms;
 
+import org.apache.commons.io.FileUtils;
 import org.openmrs.api.context.Context;
 import org.openmrs.module.ptme.ReportingTemplate;
 import org.openmrs.module.ptme.utils.UsefullFunction;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Date;
 
 /**
@@ -76,16 +79,17 @@ public class TemplateForm {
         this. setTemplateId(template.getTemplateId());
         this.setName(template.getName());
         this.setDescription(template.getDescription());
-        /*this.setContent(template.getContent());*/
 
     }
-
-    public ReportingTemplate getTemplate (ReportingTemplate template) {
+    public byte[] pathToByte(String filePath) throws IOException{
+        File file = new File(filePath);
+        return FileUtils.readFileToByteArray(file);
+    }
+    public ReportingTemplate getTemplate (ReportingTemplate template) throws IOException{
         template.setTemplateId(this.getTemplateId());
         template.setName(this.getName());
         template.setDescription(this.getDescription());
-        template.setContent(this.getFilePath().getBytes());
-        /*template.setContent(this.getContent);*/
+        template.setContent(pathToByte(filePath));
 
         if (template.getCreator() == null){
             template.setCreator(Context.getAuthenticatedUser());
