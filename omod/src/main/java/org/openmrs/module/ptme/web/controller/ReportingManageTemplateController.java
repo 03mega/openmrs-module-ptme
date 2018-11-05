@@ -84,7 +84,7 @@ public class ReportingManageTemplateController {
             if (templateForm.getTemplateId() == null) {
                 template = templateForm.getTemplate(new ReportingTemplate());
             }
-           /* else {
+            else {
                 template = templateForm.getTemplate(getPreventTransmissionService().getTemplateById(templateForm.getTemplateId()));
             }
 
@@ -95,7 +95,7 @@ public class ReportingManageTemplateController {
                 else {
                     session.setAttribute(WebConstants.OPENMRS_MSG_ATTR, "Template sauvegargé avec succès !");
                 }
-            }*/
+            }
 
             modelMap.addAttribute("mode", "list");
             return "redirect:/module/ptme/reportTemplate.form";
