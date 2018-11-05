@@ -82,8 +82,10 @@ public class TemplateForm {
 
     }
     public byte[] pathToByte(String filePath) throws IOException{
-        File file = new File(filePath);
-        return FileUtils.readFileToByteArray(file);
+        /*File file = new File(filePath);
+        return FileUtils.readFileToByteArray(file);*/
+        System.out.println(filePath);
+        return null;
     }
     public ReportingTemplate getTemplate (ReportingTemplate template) throws IOException{
         template.setTemplateId(this.getTemplateId());
