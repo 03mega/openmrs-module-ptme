@@ -90,27 +90,13 @@ public class TemplateForm {
         FileInputStream fileInputStream = null;
         byte[] bytesArray = null;
 
-        try {
-
             File file = new File(filePath);
-            bytesArray = new byte[(int) file.length()];
+
 
             //read file into bytes[]
             fileInputStream = new FileInputStream(file);
             fileInputStream.read(bytesArray);
 
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            if (fileInputStream != null) {
-                try {
-                    fileInputStream.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-
-        }
 
         return bytesArray;
     }
