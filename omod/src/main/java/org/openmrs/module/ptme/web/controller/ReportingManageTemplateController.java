@@ -92,6 +92,7 @@ public class ReportingManageTemplateController {
                     String[] split = paramName.split("\\.", 2);
                     System.out.println(split[0]);
                     System.out.println(split[1]);
+                    System.out.println(paramName);
                 }
                 catch (Exception e) {
                     throw new RuntimeException("Unable to add resource to design.", e);
