@@ -88,11 +88,17 @@ public class ReportingManageTemplateController {
             Map<String, MultipartFile> files = (Map<String, MultipartFile>)mpr.getFileMap();
             Set<String> foundResources = new HashSet<String>();
             for (String paramName : files.keySet()) {
+
                 try {
                     String[] split = paramName.split("\\.", 2);
                     System.out.println(split[0]);
                     System.out.println(split[1]);
                     System.out.println(paramName);
+                    MultipartFile file = files.get(paramName);
+                    String fileName = file.getOriginalFilename();
+                    System.out.println(file);
+                    System.out.println(fileName);
+
                 }
                 catch (Exception e) {
                     throw new RuntimeException("Unable to add resource to design.", e);
