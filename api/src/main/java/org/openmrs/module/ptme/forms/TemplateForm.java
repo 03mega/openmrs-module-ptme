@@ -6,7 +6,6 @@ import org.openmrs.module.ptme.ReportingTemplate;
 import org.openmrs.module.ptme.utils.UsefullFunction;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Date;
 
@@ -83,22 +82,8 @@ public class TemplateForm {
 
     }
     public byte[] pathToByte(String filePath) throws IOException{
-        /*File file = new File(filePath);
+        File file = new File(filePath);
         return FileUtils.readFileToByteArray(file);
-        System.out.println(filePath);
-        */
-        FileInputStream fileInputStream = null;
-        byte[] bytesArray = null;
-
-            File file = new File(filePath);
-
-
-            //read file into bytes[]
-            fileInputStream = new FileInputStream(file);
-            fileInputStream.read(bytesArray);
-
-
-        return bytesArray;
     }
     public ReportingTemplate getTemplate (ReportingTemplate template) throws IOException{
         template.setTemplateId(this.getTemplateId());
@@ -121,5 +106,4 @@ public class TemplateForm {
 
         return template ;
     }
-
 }

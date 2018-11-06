@@ -30,13 +30,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ReportingManageTemplateController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReportingManageTemplateController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/ptme/web/controller/ReportingManageTemplateController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="86" column="11" lean-forward="false" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+            <state relative-caret-position="425">
+              <caret line="93" column="49" lean-forward="false" selection-start-line="93" selection-start-column="49" selection-end-line="93" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3783#3791#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,19 +53,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TemplateForm.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TemplateForm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/ptme/forms/TemplateForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="99" column="45" lean-forward="true" selection-start-line="99" selection-start-column="45" selection-end-line="99" selection-end-column="45" />
+            <state relative-caret-position="227">
+              <caret line="85" column="44" lean-forward="false" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1466#1467#0" expanded="true" />
-                <element signature="e#1497#1498#0" expanded="true" />
-                <element signature="e#1545#1546#0" expanded="true" />
-                <element signature="e#1585#1586#0" expanded="true" />
-                <marker date="1541438605953" expanded="false" signature="1390:1401" ph=" { " />
-                <marker date="1541438605953" expanded="false" signature="1424:1430" ph=" }" />
+                <element signature="e#1434#1435#0" expanded="true" />
+                <element signature="e#1465#1466#0" expanded="true" />
+                <element signature="e#1513#1514#0" expanded="true" />
+                <element signature="e#1553#1554#0" expanded="true" />
+                <marker date="1541505322516" expanded="false" signature="1358:1369" ph=" { " />
+                <marker date="1541505322516" expanded="false" signature="1392:1398" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -864,7 +865,7 @@
       <workItem from="1540299432401" duration="2700000" />
       <workItem from="1540304531476" duration="8501000" />
       <workItem from="1540468142700" duration="11032000" />
-      <workItem from="1540896203383" duration="30704000" />
+      <workItem from="1540896203383" duration="35314000" />
     </task>
     <task id="LOCAL-00001" summary="modification du menu template et ses service">
       <created>1541070095785</created>
@@ -1020,11 +1021,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541435499752</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="modification du menu template et ses service">
+      <created>1541438710319</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1541438710320</updated>
+    </task>
+    <task id="LOCAL-00024" summary="modification du menu template et ses service">
+      <created>1541504716656</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1541504716656</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52937000" />
+    <option name="totallyTimeSpent" value="57547000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1054,7 +1069,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39844617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2640389" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15658747" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1704,28 +1719,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/ptme/web/controller/ReportingManageTemplateController.java">
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/ptme/forms/TemplateForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="86" column="11" lean-forward="false" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+        <state relative-caret-position="227">
+          <caret line="85" column="44" lean-forward="false" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1465#1466#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1553#1554#0" expanded="true" />
+            <marker date="1541505322516" expanded="false" signature="1358:1369" ph=" { " />
+            <marker date="1541505322516" expanded="false" signature="1392:1398" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/ptme/forms/TemplateForm.java">
+    <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/ptme/web/controller/ReportingManageTemplateController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="99" column="45" lean-forward="true" selection-start-line="99" selection-start-column="45" selection-end-line="99" selection-end-column="45" />
+        <state relative-caret-position="425">
+          <caret line="93" column="49" lean-forward="false" selection-start-line="93" selection-start-column="49" selection-end-line="93" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1466#1467#0" expanded="true" />
-            <element signature="e#1497#1498#0" expanded="true" />
-            <element signature="e#1545#1546#0" expanded="true" />
-            <element signature="e#1585#1586#0" expanded="true" />
-            <marker date="1541438605953" expanded="false" signature="1390:1401" ph=" { " />
-            <marker date="1541438605953" expanded="false" signature="1424:1430" ph=" }" />
+            <element signature="e#3783#3791#0" expanded="true" />
           </folding>
         </state>
       </provider>

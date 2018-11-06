@@ -15,10 +15,15 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.multipart.MultipartHttpServletRequest;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 @Controller
 public class ReportingManageTemplateController {
@@ -79,7 +84,19 @@ public class ReportingManageTemplateController {
             HttpSession session = request.getSession();
 
             Boolean hasErrors = false;
-
+            MultipartHttpServletRequest mpr = (MultipartHttpServletRequest) request;
+            Map<String, MultipartFile> files = (Map<String, MultipartFile>)mpr.getFileMap();
+            Set<String> foundResources = new HashSet<String>();
+            for (String paramName : files.keySet()) {
+                try {
+                    String[] split = paramName.split("\\.", 2);
+                    System.out.println(split[0]);
+                    System.out.println(split[1]);
+                }
+                catch (Exception e) {
+                    throw new RuntimeException("Unable to add resource to design.", e);
+                }
+            }
             ReportingTemplate template = null;
             if (templateForm.getTemplateId() == null) {
                 template = templateForm.getTemplate(new ReportingTemplate());
