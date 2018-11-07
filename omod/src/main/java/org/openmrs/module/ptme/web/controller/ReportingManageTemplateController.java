@@ -99,7 +99,7 @@ public class ReportingManageTemplateController {
 
                 }
                 catch (Exception e) {
-                    throw new RuntimeException("Unable to add resource to design.", e);
+                    /*throw new RuntimeException("Unable to add resource to design.", e);*/
                 }
             }
             ReportingTemplate template = null;
