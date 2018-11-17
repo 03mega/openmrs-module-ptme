@@ -86,16 +86,13 @@ public class ReportingManageTemplateController {
             Boolean hasErrors = false;
             MultipartHttpServletRequest mpr = (MultipartHttpServletRequest) request;
             Map<String, MultipartFile> files = (Map<String, MultipartFile>)mpr.getFileMap();
-            Set<String> foundResources = new HashSet<String>();
             for (String paramName : files.keySet()) {
 
                 try {
-                   /* String[] split = paramName.split("\\.", 2);
-                    System.out.println(split[0]);
-                    System.out.println(split[1]);*/
+
                     MultipartFile file = files.get(paramName);
                     String fileName = file.getOriginalFilename();
-                    System.out.println("--------- nom du fichier: "+fileName);
+                    templateForm.setContent(file.getBytes());
 
                 }
                 catch (Exception e) {
@@ -106,7 +103,7 @@ public class ReportingManageTemplateController {
             if (templateForm.getTemplateId() == null) {
                 template = templateForm.getTemplate(new ReportingTemplate());
             }
-           /* else {
+          else {
                 template = templateForm.getTemplate(getPreventTransmissionService().getTemplateById(templateForm.getTemplateId()));
             }
 
@@ -117,7 +114,7 @@ public class ReportingManageTemplateController {
                 else {
                     session.setAttribute(WebConstants.OPENMRS_MSG_ATTR, "Template sauvegargé avec succès !");
                 }
-            }*/
+            }
 
             modelMap.addAttribute("mode", "list");
             return "redirect:/module/ptme/reportTemplate.form";

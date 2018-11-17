@@ -116,8 +116,7 @@
                             <tr>
                                 <td class="boldText">fichier <b class="required">*</b> : </td>
                                 <td><input type="file" name="file"/></td>
-                                <td><form:errors cssClass="error" path="filePath"/></td>
-                                <%--<td><input type="submit" value="upload"/></td>--%>
+                                <td></td>
                             </tr>
                         </table>
                     </td>

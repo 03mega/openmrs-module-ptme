@@ -5,6 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/ptme/forms/TemplateForm.java" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/ptme/forms/TemplateForm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/ptme/web/controller/ReportingManageTemplateController.java" afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/ptme/web/controller/ReportingManageTemplateController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/omod/src/main/webapp/reportTemplate.jsp" afterPath="$PROJECT_DIR$/omod/src/main/webapp/reportTemplate.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/omod/target/" />
@@ -30,25 +31,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ReportingManageTemplateController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/ptme/web/controller/ReportingManageTemplateController.java">
+      <file leaf-file-name="reportTemplate.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/reportTemplate.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="93" column="49" lean-forward="false" selection-start-line="93" selection-start-column="49" selection-end-line="93" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3783#3791#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2925">
+              <caret line="117" column="73" lean-forward="false" selection-start-line="117" selection-start-column="73" selection-end-line="117" selection-end-column="73" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reportTemplate.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/reportTemplate.jsp">
+      <file leaf-file-name="ReportingManageTemplateController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/ptme/web/controller/ReportingManageTemplateController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="99" column="49" lean-forward="true" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
-              <folding />
+            <state relative-caret-position="25">
+              <caret line="92" column="55" lean-forward="false" selection-start-line="92" selection-start-column="55" selection-end-line="92" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,16 +56,29 @@
       <file leaf-file-name="TemplateForm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/ptme/forms/TemplateForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="85" column="44" lean-forward="false" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="44" />
+            <state relative-caret-position="1200">
+              <caret line="77" column="51" lean-forward="false" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1434#1435#0" expanded="true" />
-                <element signature="e#1465#1466#0" expanded="true" />
-                <element signature="e#1513#1514#0" expanded="true" />
-                <element signature="e#1553#1554#0" expanded="true" />
-                <marker date="1541505322516" expanded="false" signature="1358:1369" ph=" { " />
-                <marker date="1541505322516" expanded="false" signature="1392:1398" ph=" }" />
+                <element signature="e#582#583#0" expanded="false" />
+                <element signature="e#614#615#0" expanded="false" />
+                <element signature="e#645#646#0" expanded="false" />
+                <element signature="e#672#673#0" expanded="false" />
+                <element signature="e#712#713#0" expanded="false" />
+                <element signature="e#744#745#0" expanded="false" />
+                <element signature="e#782#783#0" expanded="false" />
+                <element signature="e#815#816#0" expanded="false" />
+                <element signature="e#868#869#0" expanded="false" />
+                <element signature="e#912#913#0" expanded="false" />
+                <element signature="e#943#944#0" expanded="false" />
+                <element signature="e#970#971#0" expanded="false" />
+                <element signature="e#1010#1011#0" expanded="false" />
+                <element signature="e#1042#1043#0" expanded="false" />
+                <element signature="e#1080#1081#0" expanded="false" />
+                <element signature="e#1114#1115#0" expanded="false" />
+                <element signature="e#1168#1169#0" expanded="false" />
+                <element signature="e#1214#1215#0" expanded="false" />
+                <element signature="e#1324#1325#0" expanded="false" />
+                <element signature="e#1362#1363#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -111,8 +124,8 @@
         <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/ptme/FileUpload.java" />
         <option value="$PROJECT_DIR$/omod/src/main/webapp/result.jsp" />
         <option value="$PROJECT_DIR$/omod/src/main/webapp/reportTemplate.jsp" />
-        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/ptme/forms/TemplateForm.java" />
         <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/ptme/web/controller/ReportingManageTemplateController.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/ptme/forms/TemplateForm.java" />
       </list>
     </option>
   </component>
@@ -175,8 +188,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -435,7 +448,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -865,7 +878,8 @@
       <workItem from="1540299432401" duration="2700000" />
       <workItem from="1540304531476" duration="8501000" />
       <workItem from="1540468142700" duration="11032000" />
-      <workItem from="1540896203383" duration="35314000" />
+      <workItem from="1540896203383" duration="46357000" />
+      <workItem from="1542460244839" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="modification du menu template et ses service">
       <created>1541070095785</created>
@@ -1035,11 +1049,60 @@
       <option name="project" value="LOCAL" />
       <updated>1541504716656</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="modification du menu template et ses service">
+      <created>1541512778139</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1541512778139</updated>
+    </task>
+    <task id="LOCAL-00026" summary="modification du menu template et ses service">
+      <created>1541543831051</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1541543831051</updated>
+    </task>
+    <task id="LOCAL-00027" summary="modification du menu template et ses service">
+      <created>1541544824700</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1541544824701</updated>
+    </task>
+    <task id="LOCAL-00028" summary="modification du menu template et ses service">
+      <created>1541546519330</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1541546519330</updated>
+    </task>
+    <task id="LOCAL-00029" summary="modification du menu template et ses service">
+      <created>1541547955834</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1541547955836</updated>
+    </task>
+    <task id="LOCAL-00030" summary="modification du menu template et ses service">
+      <created>1541549035070</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1541549035070</updated>
+    </task>
+    <task id="LOCAL-00031" summary="modification du menu template et ses service">
+      <created>1541549893599</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1541549893599</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57547000" />
+    <option name="totallyTimeSpent" value="68651000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1051,7 +1114,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
+    <frame x="-11" y="-11" width="1942" height="1102" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1069,9 +1132,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39844617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15658747" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17818575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1083,6 +1145,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1128,19 +1191,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/ptme/forms/GetTemplateFormForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/ptme/web/controller/RegisterManageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
@@ -1163,34 +1218,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1225">
           <caret line="80" column="74" lean-forward="false" selection-start-line="80" selection-start-column="74" selection-end-line="80" selection-end-column="74" />
-          <folding>
-            <element signature="e#530#531#0" expanded="false" />
-            <element signature="e#562#563#0" expanded="false" />
-            <element signature="e#593#594#0" expanded="false" />
-            <element signature="e#620#621#0" expanded="false" />
-            <element signature="e#660#661#0" expanded="false" />
-            <element signature="e#692#693#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-            <element signature="e#765#766#0" expanded="false" />
-            <element signature="e#820#821#0" expanded="false" />
-            <element signature="e#866#867#0" expanded="false" />
-            <element signature="e#897#898#0" expanded="false" />
-            <element signature="e#924#925#0" expanded="false" />
-            <element signature="e#964#965#0" expanded="false" />
-            <element signature="e#996#997#0" expanded="false" />
-            <element signature="e#1034#1035#0" expanded="false" />
-            <element signature="e#1068#1069#0" expanded="false" />
-            <element signature="e#1122#1123#0" expanded="false" />
-            <element signature="e#1168#1169#0" expanded="false" />
-            <element signature="e#1213#1214#0" expanded="false" />
-            <element signature="e#1254#1255#0" expanded="false" />
-            <element signature="e#1322#1323#0" expanded="false" />
-            <element signature="e#1382#1383#0" expanded="false" />
-            <element signature="e#1421#1422#0" expanded="false" />
-            <element signature="e#1456#1457#0" expanded="false" />
-            <element signature="e#1512#1513#0" expanded="false" />
-            <element signature="e#1560#1561#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1198,18 +1225,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1825">
           <caret line="73" column="40" lean-forward="false" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#582#583#0" expanded="false" />
+            <element signature="e#614#615#0" expanded="false" />
+            <element signature="e#645#646#0" expanded="false" />
+            <element signature="e#672#673#0" expanded="false" />
+            <element signature="e#712#713#0" expanded="false" />
+            <element signature="e#744#745#0" expanded="false" />
+            <element signature="e#782#783#0" expanded="false" />
+            <element signature="e#815#816#0" expanded="false" />
+            <element signature="e#868#869#0" expanded="false" />
+            <element signature="e#912#913#0" expanded="false" />
+            <element signature="e#943#944#0" expanded="false" />
+            <element signature="e#970#971#0" expanded="false" />
+            <element signature="e#1010#1011#0" expanded="false" />
+            <element signature="e#1042#1043#0" expanded="false" />
+            <element signature="e#1080#1081#0" expanded="false" />
+            <element signature="e#1114#1115#0" expanded="false" />
+            <element signature="e#1168#1169#0" expanded="false" />
+            <element signature="e#1214#1215#0" expanded="false" />
+            <element signature="e#1324#1325#0" expanded="false" />
+            <element signature="e#1362#1363#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/resources/messages_fr.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
           <caret line="68" column="76" lean-forward="true" selection-start-line="68" selection-start-column="76" selection-end-line="68" selection-end-column="76" />
         </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/reportIndicator.jsp">
@@ -1264,7 +1312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1272,43 +1319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
           <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1540474028443" expanded="true" signature="6859:7690" ph="select pr.ra... ptme_prenatal" />
-            <marker date="1540474028443" expanded="true" signature="6859:9449" ph="select pr.ra... " />
-            <marker date="1540474028443" expanded="true" signature="7719:8549" ph="select 'Acco... ptme_birth" />
-            <marker date="1540474028443" expanded="true" signature="8578:9409" ph="select 'CPoN... ptme_postnatal" />
-            <marker date="1540474028443" expanded="true" signature="16135:16719" ph="SELECT ppp.p... ptme_pregnant_patient" />
-            <marker date="1540474028443" expanded="true" signature="18155:19475" ph="SELECT pmf.m... *" />
-            <marker date="1540474028443" expanded="true" signature="18824:18910" ph="SELECT *, if... ptme_mother_followup" />
-            <marker date="1540474028443" expanded="true" signature="18972:19078" ph="SELECT count... ptme_mother_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="19102:19218" ph="SELECT max(v... ptme_mother_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="23889:25565" ph="SELECT pc.ch... *" />
-            <marker date="1540474028443" expanded="true" signature="25006:25092" ph="SELECT *, if... ptme_child_followup" />
-            <marker date="1540474028443" expanded="true" signature="25140:25225" ph="SELECT count... ptme_child_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="25248:25343" ph="SELECT max(v... ptme_child_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="28993:29013" ph="SELECT COUNT... " />
-            <marker date="1540474028443" expanded="true" signature="29725:31411" ph="SELECT pregn... ptme_mother_followup" />
-            <marker date="1540474028443" expanded="true" signature="30082:30215" ph="SELECT MAX(v... ptme_mother_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="30313:30628" ph="SELECT *, AD... ptme_mother_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="30854:31074" ph="SELECT COUNT... ptme_mother_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="32227:33821" ph="SELECT pregn... ptme_mother_followup" />
-            <marker date="1540474028443" expanded="true" signature="32562:32751" ph="SELECT MAX(v... ptme_mother_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="32849:32944" ph="SELECT *, AD... ptme_mother_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="33170:33375" ph="SELECT COUNT... ptme_mother_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="34568:36111" ph="SELECT child... ptme_child" />
-            <marker date="1540474028443" expanded="true" signature="34959:35127" ph="SELECT MAX(v... ptme_child_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="35204:35501" ph="SELECT *, AD... ptme_child_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="35604:35787" ph="SELECT COUNT... ptme_child_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="36860:38288" ph="SELECT child... ptme_child" />
-            <marker date="1540474028443" expanded="true" signature="37230:37398" ph="SELECT MAX(v... ptme_child_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="37475:37569" ph="SELECT *, AD... ptme_child_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="37672:37855" ph="SELECT COUNT... ptme_child_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="43059:44374" ph="SELECT pmf.m... *" />
-            <marker date="1540474028443" expanded="true" signature="43728:43813" ph="SELECT *, if... ptme_mother_followup" />
-            <marker date="1540474028443" expanded="true" signature="43875:43981" ph="SELECT count... ptme_mother_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="44005:44121" ph="SELECT max(v... ptme_mother_followup_visit" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1331,34 +1341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#530#531#0" expanded="false" />
-            <element signature="e#562#563#0" expanded="false" />
-            <element signature="e#593#594#0" expanded="false" />
-            <element signature="e#620#621#0" expanded="false" />
-            <element signature="e#660#661#0" expanded="false" />
-            <element signature="e#692#693#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-            <element signature="e#765#766#0" expanded="false" />
-            <element signature="e#820#821#0" expanded="false" />
-            <element signature="e#866#867#0" expanded="false" />
-            <element signature="e#897#898#0" expanded="false" />
-            <element signature="e#924#925#0" expanded="false" />
-            <element signature="e#964#965#0" expanded="false" />
-            <element signature="e#996#997#0" expanded="false" />
-            <element signature="e#1034#1035#0" expanded="false" />
-            <element signature="e#1068#1069#0" expanded="false" />
-            <element signature="e#1122#1123#0" expanded="false" />
-            <element signature="e#1168#1169#0" expanded="false" />
-            <element signature="e#1213#1214#0" expanded="false" />
-            <element signature="e#1254#1255#0" expanded="false" />
-            <element signature="e#1322#1323#0" expanded="false" />
-            <element signature="e#1382#1383#0" expanded="false" />
-            <element signature="e#1421#1422#0" expanded="false" />
-            <element signature="e#1456#1457#0" expanded="false" />
-            <element signature="e#1512#1513#0" expanded="false" />
-            <element signature="e#1560#1561#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1373,7 +1355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
           <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1381,7 +1362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1403,7 +1383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1423,33 +1402,33 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/resources/messages.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/resources/messages_es.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/resources/messages_fr.properties">
       <provider editor-type-id="ResourceBundle">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/resources/messages_fr.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
           <caret line="69" column="80" lean-forward="false" selection-start-line="69" selection-start-column="80" selection-end-line="69" selection-end-column="80" />
         </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/manageReport.jsp">
@@ -1512,12 +1491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="14" column="5" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#173#174#0" expanded="false" />
-            <element signature="e#200#201#0" expanded="false" />
-            <element signature="e#240#241#0" expanded="false" />
-            <element signature="e#272#273#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1525,34 +1498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding>
-            <element signature="e#530#531#0" expanded="false" />
-            <element signature="e#562#563#0" expanded="false" />
-            <element signature="e#593#594#0" expanded="false" />
-            <element signature="e#620#621#0" expanded="false" />
-            <element signature="e#660#661#0" expanded="false" />
-            <element signature="e#692#693#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-            <element signature="e#765#766#0" expanded="false" />
-            <element signature="e#820#821#0" expanded="false" />
-            <element signature="e#866#867#0" expanded="false" />
-            <element signature="e#897#898#0" expanded="false" />
-            <element signature="e#924#925#0" expanded="false" />
-            <element signature="e#964#965#0" expanded="false" />
-            <element signature="e#996#997#0" expanded="false" />
-            <element signature="e#1034#1035#0" expanded="false" />
-            <element signature="e#1068#1069#0" expanded="false" />
-            <element signature="e#1122#1123#0" expanded="false" />
-            <element signature="e#1168#1169#0" expanded="false" />
-            <element signature="e#1213#1214#0" expanded="false" />
-            <element signature="e#1254#1255#0" expanded="false" />
-            <element signature="e#1322#1323#0" expanded="false" />
-            <element signature="e#1382#1383#0" expanded="false" />
-            <element signature="e#1421#1422#0" expanded="false" />
-            <element signature="e#1456#1457#0" expanded="false" />
-            <element signature="e#1512#1513#0" expanded="false" />
-            <element signature="e#1560#1561#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1560,12 +1505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="717">
           <caret line="430" column="4" lean-forward="false" selection-start-line="430" selection-start-column="4" selection-end-line="430" selection-end-column="4" />
-          <folding>
-            <element signature="e#12357#12358#0" expanded="false" />
-            <element signature="e#12413#12414#0" expanded="false" />
-            <element signature="e#13312#13313#0" expanded="false" />
-            <element signature="e#13368#13369#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1573,7 +1512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
           <caret line="161" column="34" lean-forward="true" selection-start-line="161" selection-start-column="34" selection-end-line="161" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1581,43 +1519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
           <caret line="970" column="68" lean-forward="false" selection-start-line="970" selection-start-column="68" selection-end-line="970" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1540474028443" expanded="true" signature="6859:7690" ph="select pr.ra... ptme_prenatal" />
-            <marker date="1540474028443" expanded="true" signature="6859:9449" ph="select pr.ra... " />
-            <marker date="1540474028443" expanded="true" signature="7719:8549" ph="select 'Acco... ptme_birth" />
-            <marker date="1540474028443" expanded="true" signature="8578:9409" ph="select 'CPoN... ptme_postnatal" />
-            <marker date="1540474028443" expanded="true" signature="16135:16719" ph="SELECT ppp.p... ptme_pregnant_patient" />
-            <marker date="1540474028443" expanded="true" signature="18155:19475" ph="SELECT pmf.m... *" />
-            <marker date="1540474028443" expanded="true" signature="18824:18910" ph="SELECT *, if... ptme_mother_followup" />
-            <marker date="1540474028443" expanded="true" signature="18972:19078" ph="SELECT count... ptme_mother_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="19102:19218" ph="SELECT max(v... ptme_mother_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="23889:25565" ph="SELECT pc.ch... *" />
-            <marker date="1540474028443" expanded="true" signature="25006:25092" ph="SELECT *, if... ptme_child_followup" />
-            <marker date="1540474028443" expanded="true" signature="25140:25225" ph="SELECT count... ptme_child_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="25248:25343" ph="SELECT max(v... ptme_child_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="28993:29013" ph="SELECT COUNT... " />
-            <marker date="1540474028443" expanded="true" signature="29725:31411" ph="SELECT pregn... ptme_mother_followup" />
-            <marker date="1540474028443" expanded="true" signature="30082:30215" ph="SELECT MAX(v... ptme_mother_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="30313:30628" ph="SELECT *, AD... ptme_mother_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="30854:31074" ph="SELECT COUNT... ptme_mother_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="32227:33821" ph="SELECT pregn... ptme_mother_followup" />
-            <marker date="1540474028443" expanded="true" signature="32562:32751" ph="SELECT MAX(v... ptme_mother_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="32849:32944" ph="SELECT *, AD... ptme_mother_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="33170:33375" ph="SELECT COUNT... ptme_mother_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="34568:36111" ph="SELECT child... ptme_child" />
-            <marker date="1540474028443" expanded="true" signature="34959:35127" ph="SELECT MAX(v... ptme_child_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="35204:35501" ph="SELECT *, AD... ptme_child_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="35604:35787" ph="SELECT COUNT... ptme_child_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="36860:38288" ph="SELECT child... ptme_child" />
-            <marker date="1540474028443" expanded="true" signature="37230:37398" ph="SELECT MAX(v... ptme_child_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="37475:37569" ph="SELECT *, AD... ptme_child_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="37672:37855" ph="SELECT COUNT... ptme_child_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="43059:44374" ph="SELECT pmf.m... *" />
-            <marker date="1540474028443" expanded="true" signature="43728:43813" ph="SELECT *, if... ptme_mother_followup" />
-            <marker date="1540474028443" expanded="true" signature="43875:43981" ph="SELECT count... ptme_mother_followup_visit" />
-            <marker date="1540474028443" expanded="true" signature="44005:44121" ph="SELECT max(v... ptme_mother_followup_visit" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1637,14 +1538,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/template/result.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/template/result.jsp" />
     <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/ptme/web/controller/ReportingManageIndicatorController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-633">
@@ -1711,37 +1605,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/reportTemplate.jsp">
+    <entry file="file://$PROJECT_DIR$/omod/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="99" column="49" lean-forward="true" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
+        <state relative-caret-position="-1350">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/ptme/forms/TemplateForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="85" column="44" lean-forward="false" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="44" />
+        <state relative-caret-position="1200">
+          <caret line="77" column="51" lean-forward="false" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1434#1435#0" expanded="true" />
-            <element signature="e#1465#1466#0" expanded="true" />
-            <element signature="e#1513#1514#0" expanded="true" />
-            <element signature="e#1553#1554#0" expanded="true" />
-            <marker date="1541505322516" expanded="false" signature="1358:1369" ph=" { " />
-            <marker date="1541505322516" expanded="false" signature="1392:1398" ph=" }" />
+            <element signature="e#582#583#0" expanded="false" />
+            <element signature="e#614#615#0" expanded="false" />
+            <element signature="e#645#646#0" expanded="false" />
+            <element signature="e#672#673#0" expanded="false" />
+            <element signature="e#712#713#0" expanded="false" />
+            <element signature="e#744#745#0" expanded="false" />
+            <element signature="e#782#783#0" expanded="false" />
+            <element signature="e#815#816#0" expanded="false" />
+            <element signature="e#868#869#0" expanded="false" />
+            <element signature="e#912#913#0" expanded="false" />
+            <element signature="e#943#944#0" expanded="false" />
+            <element signature="e#970#971#0" expanded="false" />
+            <element signature="e#1010#1011#0" expanded="false" />
+            <element signature="e#1042#1043#0" expanded="false" />
+            <element signature="e#1080#1081#0" expanded="false" />
+            <element signature="e#1114#1115#0" expanded="false" />
+            <element signature="e#1168#1169#0" expanded="false" />
+            <element signature="e#1214#1215#0" expanded="false" />
+            <element signature="e#1324#1325#0" expanded="false" />
+            <element signature="e#1362#1363#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/reportTemplate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2925">
+          <caret line="117" column="73" lean-forward="false" selection-start-line="117" selection-start-column="73" selection-end-line="117" selection-end-column="73" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/ptme/web/controller/ReportingManageTemplateController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="93" column="49" lean-forward="false" selection-start-line="93" selection-start-column="49" selection-end-line="93" selection-end-column="49" />
+        <state relative-caret-position="25">
+          <caret line="92" column="55" lean-forward="false" selection-start-line="92" selection-start-column="55" selection-end-line="92" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3783#3791#0" expanded="true" />
           </folding>
         </state>
       </provider>
