@@ -922,6 +922,7 @@ public class HibernatePreventTransmissionDAO implements PreventTransmissionDAO {
 		return  (ReportingIndicator) sessionFactory.getCurrentSession().get(ReportingIndicator.class, indicatorId);
 	}
 
+
 	@Override
 	public ReportingIndicator saveReportingIndicator(ReportingIndicator indicator) {
 		sessionFactory.getCurrentSession().saveOrUpdate(indicator);
@@ -940,6 +941,57 @@ public class HibernatePreventTransmissionDAO implements PreventTransmissionDAO {
 	@Override
 	public ReportingIndicator voidIndicator(Integer indicatorId) {
 		ReportingIndicator ri = (ReportingIndicator) sessionFactory.getCurrentSession().get(ReportingIndicator.class, indicatorId);
+		ri.setVoided(true);
+		ri.setDateVoided(new Date());
+		sessionFactory.getCurrentSession().update(ri);
+		return ri;
+	}
+
+
+	// template service
+
+
+
+	@Override
+	public List<ReportingTemplate> getAllTemplate() {
+		return (List<ReportingTemplate>) sessionFactory.getCurrentSession().createCriteria(ReportingTemplate.class).list();
+	}
+
+	@Override
+	public List<ReportingTemplate> getAllTemplate(Boolean includeVoided) {
+		Criteria criteria = sessionFactory.getCurrentSession().createCriteria(ReportingTemplate.class);
+		return (List<ReportingTemplate>) (includeVoided ? criteria.list() : criteria.add(Restrictions.eq("voided", includeVoided)).list());
+	}
+
+	@Override
+	public ReportingTemplate getTemplateById(Integer templateId) {
+		return (ReportingTemplate) sessionFactory.getCurrentSession().get(ReportingTemplate.class, templateId);
+	}
+
+	@Override
+	public ReportingTemplate getTemplateByName(String name) {
+		Criteria criteria = sessionFactory.getCurrentSession().createCriteria(ReportingTemplate.class);
+		return (ReportingTemplate) criteria.add(Restrictions.eq("name", name)).uniqueResult();
+	}
+
+	@Override
+	public ReportingTemplate saveReportingTemplate(ReportingTemplate template) {
+		sessionFactory.getCurrentSession().saveOrUpdate(template);
+		return template;
+	}
+
+	@Override
+	public Boolean removeTemplate(Integer templateId) {
+		if (getTemplateById(templateId) != null){
+			sessionFactory.getCurrentSession().delete(getTemplateById(templateId));
+			return true;
+		}
+		return false;
+	}
+
+	@Override
+	public ReportingTemplate voidTemplate(Integer templateId) {
+		ReportingTemplate ri = (ReportingTemplate) sessionFactory.getCurrentSession().get(ReportingTemplate.class, templateId);
 		ri.setVoided(true);
 		ri.setDateVoided(new Date());
 		sessionFactory.getCurrentSession().update(ri);
