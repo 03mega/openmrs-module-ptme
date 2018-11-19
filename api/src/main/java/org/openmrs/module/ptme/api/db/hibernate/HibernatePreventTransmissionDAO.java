@@ -922,6 +922,7 @@ public class HibernatePreventTransmissionDAO implements PreventTransmissionDAO {
 		return  (ReportingIndicator) sessionFactory.getCurrentSession().get(ReportingIndicator.class, indicatorId);
 	}
 
+
 	@Override
 	public ReportingIndicator saveReportingIndicator(ReportingIndicator indicator) {
 		sessionFactory.getCurrentSession().saveOrUpdate(indicator);
@@ -965,6 +966,12 @@ public class HibernatePreventTransmissionDAO implements PreventTransmissionDAO {
 	@Override
 	public ReportingTemplate getTemplateById(Integer templateId) {
 		return (ReportingTemplate) sessionFactory.getCurrentSession().get(ReportingTemplate.class, templateId);
+	}
+
+	@Override
+	public ReportingTemplate getTemplateByName(String name) {
+		Criteria criteria = sessionFactory.getCurrentSession().createCriteria(ReportingTemplate.class);
+		return (ReportingTemplate) criteria.add(Restrictions.eq("name", name)).uniqueResult();
 	}
 
 	@Override
